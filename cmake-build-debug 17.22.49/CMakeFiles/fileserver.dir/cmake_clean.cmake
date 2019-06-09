@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/fileserver.dir/base/AsyncLog.cpp.o"
+  "CMakeFiles/fileserver.dir/base/ConfigFileReader.cpp.o"
+  "CMakeFiles/fileserver.dir/base/Platform.cpp.o"
+  "CMakeFiles/fileserver.dir/base/Timestamp.cpp.o"
+  "CMakeFiles/fileserver.dir/net/Acceptor.cpp.o"
+  "CMakeFiles/fileserver.dir/net/Buffer.cpp.o"
+  "CMakeFiles/fileserver.dir/net/Channel.cpp.o"
+  "CMakeFiles/fileserver.dir/net/Connector.cpp.o"
+  "CMakeFiles/fileserver.dir/net/EpollPoller.cpp.o"
+  "CMakeFiles/fileserver.dir/net/EventLoop.cpp.o"
+  "CMakeFiles/fileserver.dir/net/EventLoopThread.cpp.o"
+  "CMakeFiles/fileserver.dir/net/EventLoopThreadPool.cpp.o"
+  "CMakeFiles/fileserver.dir/net/InetAddress.cpp.o"
+  "CMakeFiles/fileserver.dir/net/Poller.cpp.o"
+  "CMakeFiles/fileserver.dir/net/PollPoller.cpp.o"
+  "CMakeFiles/fileserver.dir/net/ProtocolStream.cpp.o"
+  "CMakeFiles/fileserver.dir/net/SelectPoller.cpp.o"
+  "CMakeFiles/fileserver.dir/net/Sockets.cpp.o"
+  "CMakeFiles/fileserver.dir/net/TcpClient.cpp.o"
+  "CMakeFiles/fileserver.dir/net/TcpConnection.cpp.o"
+  "CMakeFiles/fileserver.dir/net/TcpServer.cpp.o"
+  "CMakeFiles/fileserver.dir/net/Timer.cpp.o"
+  "CMakeFiles/fileserver.dir/net/TimerQueue.cpp.o"
+  "CMakeFiles/fileserver.dir/fileserversrc/main.cpp.o"
+  "CMakeFiles/fileserver.dir/fileserversrc/FileServer.cpp.o"
+  "CMakeFiles/fileserver.dir/fileserversrc/FileSession.cpp.o"
+  "CMakeFiles/fileserver.dir/fileserversrc/FileManager.cpp.o"
+  "CMakeFiles/fileserver.dir/fileserversrc/TcpSession.cpp.o"
+  "CMakeFiles/fileserver.dir/utils/StringUtil.cpp.o"
+  "CMakeFiles/fileserver.dir/utils/URLEncodeUtil.cpp.o"
+  "CMakeFiles/fileserver.dir/utils/MD5.cpp.o"
+  "CMakeFiles/fileserver.dir/utils/DaemonRun.cpp.o"
+  "fileserver.pdb"
+  "fileserver"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/fileserver.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

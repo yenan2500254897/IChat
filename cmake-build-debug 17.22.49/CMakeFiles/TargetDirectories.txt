@@ -1,0 +1,5 @@
+/Users/yn/Documents/git/IChat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/yn/Documents/git/IChat/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yn/Documents/git/IChat/cmake-build-debug/CMakeFiles/imgserver.dir
+/Users/yn/Documents/git/IChat/cmake-build-debug/CMakeFiles/fileserver.dir
+/Users/yn/Documents/git/IChat/cmake-build-debug/CMakeFiles/chatserver.dir

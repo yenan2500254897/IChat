@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ICHAT_SERVER"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yn/Documents/git/IChat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yn/Documents/git/IChat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yn/Documents/git/IChat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgserver">
+				<Option output="/Users/yn/Documents/git/IChat/cmake-build-debug/imgserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yn/Documents/git/IChat/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 imgserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgserver/fast">
+				<Option output="/Users/yn/Documents/git/IChat/cmake-build-debug/imgserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yn/Documents/git/IChat/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 imgserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fileserver">
+				<Option output="/Users/yn/Documents/git/IChat/cmake-build-debug/fileserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yn/Documents/git/IChat/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 fileserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fileserver/fast">
+				<Option output="/Users/yn/Documents/git/IChat/cmake-build-debug/fileserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yn/Documents/git/IChat/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 fileserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chatserver">
+				<Option output="/Users/yn/Documents/git/IChat/cmake-build-debug/chatserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yn/Documents/git/IChat/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 chatserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chatserver/fast">
+				<Option output="/Users/yn/Documents/git/IChat/cmake-build-debug/chatserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yn/Documents/git/IChat/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 chatserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yn/Documents/git/IChat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yn/Documents/git/IChat/base/AsyncLog.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/base/AsyncLog.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/base/ConfigFileReader.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/base/ConfigFileReader.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/base/Platform.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/base/Platform.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/base/Timestamp.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/base/Timestamp.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/BussinessLogic.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/BussinessLogic.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/ChatServer.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/ChatServer.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/ChatSession.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/ChatSession.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/HttpServer.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/HttpServer.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/HttpSession.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/HttpSession.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/MonitorServer.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/MonitorServer.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/MonitorSession.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/MonitorSession.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/MsgCacheManager.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/MsgCacheManager.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/TcpSession.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/TcpSession.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/UserManager.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/UserManager.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/chatserversrc/main.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/fileserversrc/FileManager.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/fileserversrc/FileManager.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/fileserversrc/FileServer.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/fileserversrc/FileServer.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/fileserversrc/FileSession.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/fileserversrc/FileSession.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/fileserversrc/TcpSession.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/fileserversrc/TcpSession.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/fileserversrc/main.cpp">
+			<Option target="fileserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/imgserversrc/main.cpp">
+			<Option target="imgserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/jsoncpp1.9.0/json_reader.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/jsoncpp1.9.0/json_value.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/jsoncpp1.9.0/json_writer.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/mysqlapi/DatabaseMysql.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/mysqlapi/DatabaseMysql.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/mysqlapi/Field.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/mysqlapi/Field.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/mysqlapi/QueryResult.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/mysqlapi/QueryResult.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/mysqlmgr/MysqlManager.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/mysqlmgr/MysqlManager.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/mysqlmgr/MysqlThrd.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/mysqlmgr/MysqlThrd.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/mysqlmgr/MysqlThrdMgr.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/mysqlmgr/MysqlThrdMgr.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/mysqlmgr/TaskList.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/mysqlmgr/TaskList.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/Acceptor.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/Acceptor.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/Buffer.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/Buffer.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/Channel.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/Channel.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/Connector.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/Connector.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/EpollPoller.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/EpollPoller.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/EventLoop.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/EventLoop.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/EventLoopThread.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/EventLoopThread.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/EventLoopThreadPool.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/EventLoopThreadPool.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/InetAddress.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/InetAddress.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/PollPoller.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/PollPoller.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/Poller.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/Poller.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/ProtocolStream.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/ProtocolStream.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/SelectPoller.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/SelectPoller.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/Sockets.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/Sockets.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/TcpClient.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/TcpClient.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/TcpConnection.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/TcpConnection.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/TcpServer.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/TcpServer.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/Timer.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/Timer.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/TimerQueue.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/net/TimerQueue.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/utils/DaemonRun.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/utils/DaemonRun.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/utils/MD5.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/utils/MD5.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/utils/StringUtil.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/utils/StringUtil.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/utils/URLEncodeUtil.cpp">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/utils/URLEncodeUtil.h">
+			<Option target="imgserver"/>
+			<Option target="fileserver"/>
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/ZlibUtil.cpp">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/ZlibUtil.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/adler32.c">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/compress.c">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/crc32.c">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/crc32.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/deflate.c">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/deflate.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/gzclose.c">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/gzlib.c">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/gzread.c">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/gzwrite.c">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/infback.c">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/inffast.c">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/inffast.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/inflate.c">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/inflate.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/inftrees.c">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/inftrees.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/trees.c">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/trees.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/uncompr.c">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/zutil.c">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/zlib1.2.11/zutil.h">
+			<Option target="chatserver"/>
+		</Unit>
+		<Unit filename="/Users/yn/Documents/git/IChat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
